@@ -14,7 +14,7 @@ void main() {
     cal.sub(a: firstNum, b: secondNum);
     cal.mult(a: firstNum, b: secondNum);
     cal.div(a: firstNum, b: secondNum);
-  } on FormatException catch (number) {
+  } on FormatException {
     print("Invlaid number format in input field");
   } catch (error) {
     print(error);
